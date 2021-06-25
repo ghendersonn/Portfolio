@@ -181,7 +181,11 @@ body {
 }
 @media (max-width: 500px)
 {
-  .socials, .mobile-push{
+  .socials{
     margin-bottom: 110px;
   }
-}
+  
+    .mobile-push{
+      margin-bottom: 210px;
+    }
+  }
