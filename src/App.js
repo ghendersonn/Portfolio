@@ -56,7 +56,7 @@ class App extends React.Component {
        <div className="bg bg2"></div>
       <div className="bg bg3"></div>
       
-      <img className="bg-img"src={bgimg} alt='3 offset triangles' />
+      <img className="bg-img fadeIn"src={bgimg} alt='3 offset triangles' />
       
       <div>
      <BrowserView>
@@ -71,7 +71,7 @@ class App extends React.Component {
    </BrowserView>
     <div className="row" >
     <div className="col1">
-    <FadeIn delay={500} transitionDuration={2000} className="Nav">
+    <FadeIn delay={500} transitionDuration={4000} className="Nav">
           <li ><button className="button navLink" onClick={this.handleInfo}>Info</button></li>
           <li ><button className="button navLink" onClick={this.handlePort}>Work</button></li>
           <li ><button className="button navLink" onClick={this.handleContact}>Contact</button></li>
@@ -81,8 +81,8 @@ class App extends React.Component {
       </div>
       
       <FadeIn delay={0} transitionDuration={2000} className="col2">
-      <div>
-      <p>
+      <div className="mobile-push">
+       <p>
         {this.state.text} 
         </p>
         <a href="https://siteppl.com/">{this.state.link}</a>
@@ -90,8 +90,8 @@ class App extends React.Component {
       </FadeIn>
 
       <div className="col3">
-      <FadeIn delay={500} transitionDuration={2000} className="signature"><img className='sig' src={sig} alt="signature" /></FadeIn>
-      <FadeIn delay={500} transitionDuration={2000} transitionProperty='opacity' className="socials">
+      <FadeIn delay={1200} transitionDuration={2000} className="signature"><img className='sig' src={sig} alt="signature" /></FadeIn>
+      <FadeIn delay={1200} transitionDuration={1500} transitionProperty='opacity' className="socials">
         <p className="socText">
           @gavinmhenderson
         </p>

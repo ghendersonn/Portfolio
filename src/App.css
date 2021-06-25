@@ -19,6 +19,26 @@ body {
   z-index: -1;
   right: 0;
   bottom: -250px;
+  opacity: 0;
+  -webkit-animation-duration: 10s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }
 .bg {
   animation:slide 6s ease-in-out infinite alternate;
@@ -155,13 +175,13 @@ body {
 }
 @media (max-width: 800px)
 {
-  .socials, .col2 p, .col2 a{
+  .socials, .mobile-push{
     margin-bottom: 50px;
   }
 }
 @media (max-width: 500px)
 {
-  .socials, .col2 p, .col2 a{
-    margin-bottom: 125px;
+  .socials, .mobile-push{
+    margin-bottom: 100px;
   }
 }
