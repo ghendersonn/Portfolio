@@ -43,7 +43,7 @@ class App extends React.Component {
     this.setState({text: 'email: ghenderson28@comcast.net', link:'',mode: 'contact'});
   }
   handleDonate() {
-    this.setState({text: 'Paypal: ghendersonn',link:'', mode: 'donate'});
+    this.setState({text: 'Paypal: @gavhenderson',link:'', mode: 'donate'});
   }
   
   

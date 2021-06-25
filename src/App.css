@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+html {height: 100%;
+  -webkit-overflow-scrolling: touch;}
 
 .wrapper{
   display: flex;
 }
 body {
+  -webkit-overflow-scrolling: touch;
+  height:100%;
   margin:0;
   overflow-y: hidden;
   overflow-x: hidden;
