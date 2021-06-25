@@ -8,7 +8,7 @@ import git from "./Images/gittan.png";
 import sig from "./Images/signt.png";
 import bgimg from './Images/greay.png';
 
-import React, { Component } from "react";
+import React from "react";
 import AnimatedCursor from "react-animated-cursor";
 import FadeIn from 'react-fade-in';
 import { BrowserView } from "react-device-detect";
@@ -54,7 +54,7 @@ class App extends React.Component {
        <div className="bg bg2"></div>
       <div className="bg bg3"></div>
       
-      <img className="bg-img"src={bgimg} alt='background image' />
+      <img className="bg-img"src={bgimg} alt='3 offset triangles' />
       
       <div>
      <BrowserView>
