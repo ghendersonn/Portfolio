@@ -154,3 +154,9 @@ body {
   transform: scale(1.15);
   
 }
+@media (max-width: 800px)
+{
+  .socials, .col2 p, .col2 a{
+    margin-bottom: 50px;
+  }
+}
