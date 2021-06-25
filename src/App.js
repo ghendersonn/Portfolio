@@ -58,7 +58,7 @@ class App extends React.Component {
       
       <img className="bg-img fadeIn"src={bgimg} alt='3 offset triangles' />
       
-      <div>
+      
      <BrowserView>
     <AnimatedCursor
       innerSize={20}
@@ -108,7 +108,7 @@ class App extends React.Component {
     </div>
     </div>
     </div>
-    </div>
+   
   );
   }
 }
