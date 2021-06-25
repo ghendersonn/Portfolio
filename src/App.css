@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
-html {min-height: 100vh;
-  -webkit-overflow-scrolling: touch;}
+html {height: -webkit-fill-available;
+}
 
 .wrapper{
   display: flex;
  
+  
+ 
 }
 body {
-  -webkit-overflow-scrolling: touch;
-  
-  margin:0;
-  overflow-y: hidden;
-  overflow-x: hidden;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+ 
+ 
 }
 .App{
   height: 100vh;
@@ -54,6 +55,7 @@ body {
   position:fixed;
   right:-50%;
   top:0;
+  
   z-index:-5;
 }
 
@@ -61,11 +63,13 @@ body {
   animation-direction:alternate-reverse;
   animation-duration:8s;
   z-index:-3;
+  
 }
 
 .bg3 {
   animation-duration:10s;
   z-index:-3;
+  
 }
 
 
