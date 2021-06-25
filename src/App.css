@@ -154,7 +154,7 @@ html, body { height: 100%;
 }
 .socText{
   color:#FFF4DE;
-  font-size: calc(3px + 2vmin);
+  font-size: calc(7px + 2vmin);
   margin-left: 20px;
 }
 .icons{
