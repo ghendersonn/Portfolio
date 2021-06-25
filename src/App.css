@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
-html, body { height: 100% }
+html, body { height: 100%; 
+  overflow: hidden}
 .wrapper{
   display: flex;
  
