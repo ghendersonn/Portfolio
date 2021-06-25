@@ -46,9 +46,11 @@ class App extends React.Component {
     this.setState({text: 'Paypal: ghendersonn',link:'', mode: 'donate'});
   }
   
+  
 
   render () {
   return (
+    <div className="wrapper">
     <div className="App">
       <div className="bg"></div>
        <div className="bg bg2"></div>
@@ -103,6 +105,7 @@ class App extends React.Component {
         </FadeIn>
       </div>
       
+    </div>
     </div>
     </div>
     </div>
