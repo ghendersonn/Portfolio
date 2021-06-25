@@ -154,8 +154,10 @@ html, body { height: 100%;
 }
 .socText{
   color:#FFF4DE;
-  font-size: calc(7px + 2vmin);
+  font-size: calc(2px + 3vmin);
   margin-left: 20px;
+  margin-bottom: -10px;
+  
 }
 .icons{
   
@@ -181,14 +183,19 @@ html, body { height: 100%;
   .socials, .mobile-push{
     margin-bottom: 50px;
   }
+  
+  
 }
 @media (max-width: 500px)
 {
   .socials{
-    margin-bottom: 110px;
+    margin-bottom: 105px;
   }
   
     .mobile-push{
       margin-bottom: 210px;
+    }
+    .socText{
+      font-size: calc(2px + 4vmin);
     }
   }
