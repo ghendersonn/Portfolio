@@ -160,3 +160,9 @@ body {
     margin-bottom: 50px;
   }
 }
+@media (max-width: 500px)
+{
+  .socials, .col2 p, .col2 a{
+    margin-bottom: 125px;
+  }
+}
